@@ -1,0 +1,59 @@
+.Query {
+    background: #ffffff;
+    box-shadow: 10px 10px 16px rgba(30, 30, 45, 0.04);
+    border-radius: 7px;
+    flex: 1;
+    margin-right: 14px;
+    margin-top: 14px;
+    &-Cont {
+      padding: 19px 17px;
+  
+      h1 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 14px;
+        color: #595d6e;
+        margin-bottom: 15px;
+      }
+      p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        color: #595d6e;
+        margin-bottom: 9px;
+      }
+      &-Flex {
+        display: flex;
+        justify-content: space-between;
+        input {
+          width: 100%;
+          background: #f5f6fc;
+          border: 1px solid rgba(89, 93, 110, 0.2);
+          box-sizing: border-box;
+          border-radius: 17px;
+          margin-right: 10px;
+          outline: none;
+        }
+        ::placeholder {
+          font-family: Lato;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 14px;
+          padding: 25px;
+          color: #a5abb8;
+        }
+        button {
+          width: 103px;
+          height: 32px;
+  
+          background: #5263d7;
+          border-radius: 17px;
+          color: #ffffff;
+          margin-right: 65px;
+  
+        }
+      }
+    }
+  }
+  

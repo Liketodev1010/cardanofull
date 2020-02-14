@@ -1,0 +1,67 @@
+.CardStat {
+  padding: 19px 17px;
+  background: #ffffff;
+  box-shadow: 10px 10px 16px rgba(30, 30, 45, 0.04);
+  border-radius: 7px;
+  flex: 1;
+  margin-right: 14px;
+
+  &:last-child {
+      margin-right: 0px;
+  }
+
+  &-Cont {
+    display: flex;
+    flex-direction: column;
+
+    &-Header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      &-Title {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 14px;
+          color: #595d6e;
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 14px;
+          color: #a5abb8;
+          margin-top: 11px;
+        }
+      }
+
+      > h1 {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 14px;
+        color: #2c77f4;
+      }
+    }
+    &-Line {
+      background: #ebedf2;
+      border-radius: 4.5px;
+      margin-top: 23px;
+
+      &-Inner {
+        width: 334px;
+        height: 9px;
+        background: linear-gradient(90deg, #2c77f4 27.4%, #009cde 64.37%);
+        border-radius: 4.5px;
+      }
+    }
+    &-Plast {
+      font-size: 14px;
+      line-height: 14px;
+      color: #a5abb8;
+      margin-top: 22px;
+    }
+  }
+}

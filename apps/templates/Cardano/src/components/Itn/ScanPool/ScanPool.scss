@@ -1,0 +1,78 @@
+.ScanPool {
+  padding: 19px 17px;
+  background: #ffffff;
+  box-shadow: 10px 10px 16px rgba(30, 30, 45, 0.04);
+  border-radius: 7px;
+  flex: 1;
+  margin-right: 14px;
+
+  &-Cont {
+    display: flex;
+    flex-direction: column;
+
+    &-Title {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: end;
+
+      > h1 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 14px;
+        color: #595d6e;
+      }
+      > p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 10px;
+        color: #a5abb8;
+        margin-bottom: 25px;
+      }
+    }
+    &-Flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 18px;
+
+      &-Margin1 {
+        display: flex;
+        > p {
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 14px;
+          margin-left: 15px;
+          color: #595d6e;
+        }
+      }
+      &-Margin2 {
+        margin-right: 251px;
+      }
+    }
+
+    &-Flex1 {
+      display: flex;
+    //   justify-content: space-between;
+      align-items: center;
+      margin-top: 18px;
+
+      h1 {
+          margin-left: 10px;
+      }
+
+      &-Margin1 {
+        display: flex;
+        > p {
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 14px;
+          margin-left: 15px;
+          color: #595d6e;
+        }
+      }
+      
+    }
+  }
+}

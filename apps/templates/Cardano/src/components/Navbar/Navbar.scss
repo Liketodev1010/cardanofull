@@ -1,0 +1,21 @@
+.Navbar {
+  background: linear-gradient(90deg, #2c77f4 27.4%, #009cde 64.37%);
+  height: 50px;
+  padding: 18px 35px;
+  display: flex;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 18px;
+    line-height: 14px;
+    color: #ffffff;
+  }
+
+  &-Icons {
+    display: flex;
+
+    img {
+        margin-left: 15px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.Itn {
+  width: 100%;
+  background: #e5e5e5;
+  padding: 12px 34px;
+
+  &-Cont {
+    display: flex;
+    flex-direction: column;
+
+    &-Card {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-Pool {
+      width: 100%;
+      display: flex;
+      margin-top: 14px;
+    }
+
+    &-Context {
+      display: flex;
+      margin-top: 14px;
+
+      &-Info {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &-Scan {
+          width: 100%;
+          display: flex;
+        }
+      }
+
+      &-Map {
+        flex: 1;
+      }
+    }
+  }
+}

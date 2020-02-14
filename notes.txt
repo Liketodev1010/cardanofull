@@ -1,0 +1,15 @@
+We’ll use the flask command to run the application but before that, we need to tell Flask how to load the application by specifying the FLASK_APP environment variable:
+
+	export FLASK_APP=hello
+	flask run
+
+    If you installed Flask on a virtual machine and you want to access Flask development server then you can make the server publicly availabl    e by appending --host=0.0.0.0 to the flask run command.
+
+Installing db:
+	pip3 install Flask-SQLAlchemy
+
+Database configurations:
+	sqlite:////tmp/test.db
+	mysql://username:password@server/db
+
+

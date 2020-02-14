@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react/cardano/build/static/css/main.66f5126a.chunk.css",
+    "main.js": "/react/cardano/build/static/js/main.7d1ce3d9.chunk.js",
+    "main.js.map": "/react/cardano/build/static/js/main.7d1ce3d9.chunk.js.map",
+    "runtime-main.js": "/react/cardano/build/static/js/runtime-main.b49372b7.js",
+    "runtime-main.js.map": "/react/cardano/build/static/js/runtime-main.b49372b7.js.map",
+    "static/js/2.b41284b1.chunk.js": "/react/cardano/build/static/js/2.b41284b1.chunk.js",
+    "static/js/2.b41284b1.chunk.js.map": "/react/cardano/build/static/js/2.b41284b1.chunk.js.map",
+    "index.html": "/react/cardano/build/index.html",
+    "precache-manifest.50ab9690ed241deca298d45a825bb5fa.js": "/react/cardano/build/precache-manifest.50ab9690ed241deca298d45a825bb5fa.js",
+    "service-worker.js": "/react/cardano/build/service-worker.js",
+    "static/css/main.66f5126a.chunk.css.map": "/react/cardano/build/static/css/main.66f5126a.chunk.css.map",
+    "static/js/2.b41284b1.chunk.js.LICENSE.txt": "/react/cardano/build/static/js/2.b41284b1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b49372b7.js",
+    "static/js/2.b41284b1.chunk.js",
+    "static/css/main.66f5126a.chunk.css",
+    "static/js/main.7d1ce3d9.chunk.js"
+  ]
+}
